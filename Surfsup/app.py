@@ -1,5 +1,5 @@
 # Import all dependencies: 
-################################################# 
+##########################
 
 import numpy as np
 import sqlalchemy
@@ -10,7 +10,7 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify 
 
 # Create connection to Hawaii.sqlite file
-#################################################
+#########################################
 
 engine = create_engine("sqlite:///hawaii.sqlite")
 
